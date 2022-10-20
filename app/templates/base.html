@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--dutch white #DDD8B8-->
+<!-- pewter blue #84A9C0-->
+<!--Cambridge green #B3CBB9-->
+{% load static %}
+<html>
+ <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width">
+   <title>Valley Catalogue</title>
+   <link rel="stylesheet" href= "{% static "styles.css" %}"/>
+ </head>
+ <body>
+  <header class ="header">
+
+    <div class = "head-top">
+      <a href="base.html" class = "brand-name">
+        Valley 
+        <span>Catalogue</span>
+      </a>
+      <div>
+        <span class = "shop-icon">
+          <img class = "shop-img" src = "static/images/shop-icon.png"/>
+        </span>
+      </div>
+    </div>
+
+    <div class = "head-body container">
+      <div class = "head-body-content">
+        <h1 class = "head-title">
+          Welcome to the Valley Catalogue. Feel free to shop around!
+        </h1>
+        <p class = "text">
+          At the Valley Catalogue, we offer a wide range of furniture and furnishings for your home or office such as chairs, couches, and desks.
+          <!--CANNON WRITE SHORT WEBSITE DESCRIPTION HERE-->
+        </p>
+        <button type = "button" class = "btn">
+          Shop Now!
+        </button>
+      </div>
+
+      <div class = "head-body-img">
+        <img src = "static/images/desk1.png">
+      </div>
+    </div>
+  </header>
+
+
+  <section class="trend">
+    <div class = "container">
+      <div class = "title">
+        <h4>Products Trending Now</h4>
+        <h2>Best Selling Products</h2>
+      </div>
+
+      <div class = "trend-item">
+        <img src="static/images/best-selling-chair.png">
+        <div class = "trend-item-content">
+          <h4>Black cow's leather chair.</h4>
+          <h4>$150.00</h4>
+        </div>
+      </div>
+
+      <div class = "trend-item">
+        <img src="static/images/best-selling-whiteofficeset.png">
+        <div class = "trend-item-content">
+          <h4>Off-white modular office desk.</h4>
+          <h4>$750.00</h4>
+        </div>
+      </div>
+
+      <div class = "trend-item">
+        <img src="static/images/best-selling-officeset.png">
+        <div class = "trend-item-content">
+          <h4>Brown chesnut office furniture set.</h4>
+          <h4>$1500.00</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+</body>
+</html>
+ {% load static %}
